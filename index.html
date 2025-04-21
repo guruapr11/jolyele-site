@@ -1,124 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>JolyEle - Selling Soon Near You!</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JolyEle – Coming Soon Near You</title>
   <style>
     body {
+      font-family: 'Segoe UI', sans-serif;
       margin: 0;
-      font-family: 'Poppins', sans-serif;
-      background: linear-gradient(to right, #fef9f9, #e8f1ff);
+      padding: 0;
+      background: #fefbf7;
       color: #333;
     }
-
     header {
-      background-color: #ffd166;
       text-align: center;
-      padding: 60px 20px;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      padding: 2rem 1rem;
     }
-
     header img {
-      height: 80px;
+      width: 120px;
+      margin-bottom: 0.5rem;
     }
-
-    h1 {
-      margin-top: 20px;
-      font-size: 2.5rem;
-      color: #1d3557;
+    header p {
+      font-size: 1.1rem;
+      color: #555;
+      margin: 0;
     }
-
-    p.subtitle {
-      font-size: 1.2rem;
-      color: #264653;
-      margin-bottom: 10px;
-    }
-
-    .products {
+    nav {
       display: flex;
-      flex-wrap: wrap;
       justify-content: center;
-      padding: 40px 10px;
-      gap: 30px;
+      gap: 1.5rem;
+      background: #f2e7dc;
+      padding: 1rem;
+      flex-wrap: wrap;
     }
-
-    .product {
-      width: 220px;
-      background-color: white;
-      border-radius: 10px;
-      padding: 15px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-      transition: transform 0.2s;
-    }
-
-    .product:hover {
-      transform: scale(1.03);
-    }
-
-    .product img {
-      width: 100%;
-      border-radius: 8px;
-    }
-
-    .product p {
-      margin-top: 10px;
-      font-weight: 500;
-    }
-
-    .contact {
-      background-color: #1d3557;
-      color: white;
-      padding: 40px 20px;
-      text-align: center;
-    }
-
-    .contact a {
-      color: #ffd166;
+    nav a {
       text-decoration: none;
-      font-weight: bold;
+      color: #6b4e38;
+      font-weight: 600;
     }
-
-    .contact a:hover {
-      text-decoration: underline;
+    section {
+      text-align: center;
+      padding: 3rem 1rem;
+      border-bottom: 1px solid #ddd;
+    }
+    section img {
+      width: 80%;
+      max-width: 400px;
+      margin-top: 1rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #e6d4c2;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    footer p {
+      margin: 0.5rem 0;
     }
   </style>
 </head>
 <body>
 
   <header>
-    <img src="logo.png" alt="JolyEle Logo">
-    <h1>JolyEle</h1>
-    <p class="subtitle">Selling Soon Near You!</p>
+    <img src="logo.png" alt="JolyEle Logo" />
+    <p>A touch of joy in every sip, step, and celebration.</p>
   </header>
 
-  <section class="products">
-    <div class="product">
-      <img src="product1.jpg" alt="EleFun Tea Cups">
-      <p>Stand Out and Fun Tea Cups1</p>
-    </div>
-    <div class="product">
-      <img src="product2.jpg" alt="EleGant Coffee Mugs">
-      <p>Makes your space more elegant</p>
-    </div>
-    <div class="product">
-      <img src="product3.jpg" alt="JolyEle Muse">
-      <p>Make Heads Turn</p>
-    </div>
-    <div class="product">
-      <img src="product4.jpg" alt="EleShaan">
-      <p>Up your festive decor</p>
-    </div>
-    <div class="product">
-      <img src="product5.jpg" alt="EleNook">
-      <p>Special pieces to have</p>
-    </div>
+  <nav>
+    <a href="#fun-tea">EleFun-Tea</a>
+    <a href="#elegant">EleGant Cups</a>
+    <a href="#muse">Ele Muse</a>
+    <a href="#eshaan">Ele-Shaan</a>
+    <a href="#nook">Ele Nook</a>
+  </nav>
+
+  <section id="fun-tea">
+    <h2>EleFun-Tea</h2>
+    <p>Tea time just got more cheerful! Our playful mugs and colorful tea sets bring laughter to every sip.</p>
+    <img src="product1.jpg" alt="EleFun-Tea collection">
   </section>
 
-  <section class="contact">
-    <h2>Reach Out To Us</h2>
-    <p>Email: <a href="mailto:connect@jolyele.com">hello@jolyele.com</a></p>
-    <p>Instagram: <a href="https://instagram.com/jolyele" target="_blank">@jolyele</a></p>
+  <section id="elegant">
+    <h2>EleGant Coffee Cups</h2>
+    <p>Classy and timeless, these cups are perfect for mindful mornings and deep conversations over coffee.</p>
+    <img src="product2.jpg" alt="EleGant coffee cups">
   </section>
+
+  <section id="muse">
+    <h2>Ele Muse</h2>
+    <p>Celebrate femininity with tote bags and accessories designed for strength, creativity, and grace.</p>
+    <img src="product3.jpg" alt="Ele Muse bags">
+  </section>
+
+  <section id="eshaan">
+    <h2>Ele-Shaan</h2>
+    <p>Festive vibes meet ethnic charm in this vibrant collection meant for moments that sparkle.</p>
+    <img src="product4.jpg" alt="Ele-Shaan festive collection">
+  </section>
+
+  <section id="nook">
+    <h2>Ele Nook</h2>
+    <p>Your happy corner just got happier. Discover cute, cozy essentials for your everyday nook.</p>
+    <img src="product5.jpg" alt="Ele Nook home collection">
+  </section>
+
+  <footer>
+    <h3>Reach Out to Us</h3>
+    <p>Email: connect@jolyele.com</p>
+    <p>Instagram: @jolyele</p>
+    <p>We can’t wait to bring Ele-joy near you!</p>
+  </footer>
 
 </body>
 </html>
