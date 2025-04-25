@@ -5,60 +5,81 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>JolyEle – Coming Soon Near You</title>
   <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #fefbf7;
-      color: #333;
-    }
-    header {
-      text-align: center;
-      padding: 2rem 1rem;
-    }
-    header img {
-      width: 120px;
-      margin-bottom: 0.5rem;
-    }
-    header p {
-      font-size: 1.1rem;
-      color: #555;
-      margin: 0;
-    }
-    nav {
-      display: flex;
-      justify-content: center;
-      gap: 1.5rem;
-      background: #f2e7dc;
-      padding: 1rem;
-      flex-wrap: wrap;
-    }
-    nav a {
-      text-decoration: none;
-      color: #6b4e38;
-      font-weight: 600;
-    }
-    section {
-      text-align: center;
-      padding: 3rem 1rem;
-      border-bottom: 1px solid #ddd;
-    }
-    section img {
-      width: 80%;
-      max-width: 400px;
-      margin-top: 1rem;
-      border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    }
-    footer {
-      background: #e6d4c2;
-      text-align: center;
-      padding: 2rem 1rem;
-    }
-    footer p {
-      margin: 0.5rem 0;
-    }
-  </style>
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #fdf6ee, #f9f3e9); /* Ivory gradient */
+    color: #4a3f35;
+  }
+
+  header {
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+
+  header img {
+    width: 120px;
+    margin-bottom: 0.5rem;
+  }
+
+  header p {
+    font-size: 1.1rem;
+    color: #6e5a47;
+    margin: 0;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    background: #f0e7d8;
+    padding: 1rem;
+    flex-wrap: wrap;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #6b4e38;
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+
+  nav a:hover {
+    color: #9c6b45;
+  }
+
+  section {
+    text-align: center;
+    padding: 3rem 1rem;
+    border-bottom: 1px solid #e5d8c4;
+  }
+
+  section img {
+    width: 80%;
+    max-width: 400px;
+    margin-top: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  section img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  footer {
+    background: #f1e7d5;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+
+  footer p {
+    margin: 0.5rem 0;
+  }
+</style>
 </head>
 <body>
 
